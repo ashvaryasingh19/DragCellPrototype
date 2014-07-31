@@ -21,6 +21,9 @@
 		E4A19F1A1988C5940078BE52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A19EFC1988C5940078BE52 /* UIKit.framework */; };
 		E4A19F221988C5940078BE52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4A19F201988C5940078BE52 /* InfoPlist.strings */; };
 		E4A19F241988C5940078BE52 /* DragCellPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A19F231988C5940078BE52 /* DragCellPrototypeTests.m */; };
+		E4A19F2F1988CC380078BE52 /* CustomGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A19F2E1988CC380078BE52 /* CustomGroupCell.m */; };
+		E4A19F311988EFC80078BE52 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4A19F301988EFC80078BE52 /* apple.jpg */; };
+		E4A19F341988F5620078BE52 /* I3DragBetweenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A19F331988F5620078BE52 /* I3DragBetweenHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		E4A19F1F1988C5940078BE52 /* DragCellPrototypeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragCellPrototypeTests-Info.plist"; sourceTree = "<group>"; };
 		E4A19F211988C5940078BE52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4A19F231988C5940078BE52 /* DragCellPrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragCellPrototypeTests.m; sourceTree = "<group>"; };
+		E4A19F2D1988CC380078BE52 /* CustomGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGroupCell.h; sourceTree = "<group>"; };
+		E4A19F2E1988CC380078BE52 /* CustomGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGroupCell.m; sourceTree = "<group>"; };
+		E4A19F301988EFC80078BE52 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		E4A19F321988F5620078BE52 /* I3DragBetweenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I3DragBetweenHelper.h; sourceTree = "<group>"; };
+		E4A19F331988F5620078BE52 /* I3DragBetweenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I3DragBetweenHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,11 @@
 				E4A19F0A1988C5940078BE52 /* Main.storyboard */,
 				E4A19F0D1988C5940078BE52 /* ViewController.h */,
 				E4A19F0E1988C5940078BE52 /* ViewController.m */,
+				E4A19F2D1988CC380078BE52 /* CustomGroupCell.h */,
+				E4A19F2E1988CC380078BE52 /* CustomGroupCell.m */,
+				E4A19F321988F5620078BE52 /* I3DragBetweenHelper.h */,
+				E4A19F331988F5620078BE52 /* I3DragBetweenHelper.m */,
+				E4A19F301988EFC80078BE52 /* apple.jpg */,
 				E4A19F101988C5940078BE52 /* Images.xcassets */,
 				E4A19EFF1988C5940078BE52 /* Supporting Files */,
 			);
@@ -230,6 +243,7 @@
 			files = (
 				E4A19F111988C5940078BE52 /* Images.xcassets in Resources */,
 				E4A19F031988C5940078BE52 /* InfoPlist.strings in Resources */,
+				E4A19F311988EFC80078BE52 /* apple.jpg in Resources */,
 				E4A19F0C1988C5940078BE52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A19F2F1988CC380078BE52 /* CustomGroupCell.m in Sources */,
 				E4A19F0F1988C5940078BE52 /* ViewController.m in Sources */,
 				E4A19F091988C5940078BE52 /* AppDelegate.m in Sources */,
 				E4A19F051988C5940078BE52 /* main.m in Sources */,
+				E4A19F341988F5620078BE52 /* I3DragBetweenHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

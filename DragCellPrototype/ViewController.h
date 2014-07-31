@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "I3DragBetweenHelper.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UICollectionViewDataSource,UICollectionViewDelegate,I3DragBetweenDelegate>
+
+@property(nonatomic,weak) IBOutlet UICollectionView *groupSection;
+@property(nonatomic,weak) IBOutlet UITableView *memberTableView;
+
+
 
 @end
