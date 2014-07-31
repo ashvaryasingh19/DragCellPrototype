@@ -22,7 +22,6 @@
 		E4A19F221988C5940078BE52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4A19F201988C5940078BE52 /* InfoPlist.strings */; };
 		E4A19F241988C5940078BE52 /* DragCellPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A19F231988C5940078BE52 /* DragCellPrototypeTests.m */; };
 		E4A19F2F1988CC380078BE52 /* CustomGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A19F2E1988CC380078BE52 /* CustomGroupCell.m */; };
-		E4A19F311988EFC80078BE52 /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4A19F301988EFC80078BE52 /* apple.jpg */; };
 		E4A19F341988F5620078BE52 /* I3DragBetweenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A19F331988F5620078BE52 /* I3DragBetweenHelper.m */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +57,6 @@
 		E4A19F231988C5940078BE52 /* DragCellPrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragCellPrototypeTests.m; sourceTree = "<group>"; };
 		E4A19F2D1988CC380078BE52 /* CustomGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGroupCell.h; sourceTree = "<group>"; };
 		E4A19F2E1988CC380078BE52 /* CustomGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGroupCell.m; sourceTree = "<group>"; };
-		E4A19F301988EFC80078BE52 /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
 		E4A19F321988F5620078BE52 /* I3DragBetweenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I3DragBetweenHelper.h; sourceTree = "<group>"; };
 		E4A19F331988F5620078BE52 /* I3DragBetweenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I3DragBetweenHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,7 +127,6 @@
 				E4A19F2E1988CC380078BE52 /* CustomGroupCell.m */,
 				E4A19F321988F5620078BE52 /* I3DragBetweenHelper.h */,
 				E4A19F331988F5620078BE52 /* I3DragBetweenHelper.m */,
-				E4A19F301988EFC80078BE52 /* apple.jpg */,
 				E4A19F101988C5940078BE52 /* Images.xcassets */,
 				E4A19EFF1988C5940078BE52 /* Supporting Files */,
 			);
@@ -243,7 +240,6 @@
 			files = (
 				E4A19F111988C5940078BE52 /* Images.xcassets in Resources */,
 				E4A19F031988C5940078BE52 /* InfoPlist.strings in Resources */,
-				E4A19F311988EFC80078BE52 /* apple.jpg in Resources */,
 				E4A19F0C1988C5940078BE52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +470,7 @@
 				E4A19F291988C5940078BE52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4A19F2A1988C5940078BE52 /* Build configuration list for PBXNativeTarget "DragCellPrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +479,7 @@
 				E4A19F2C1988C5940078BE52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
