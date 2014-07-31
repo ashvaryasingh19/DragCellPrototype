@@ -118,6 +118,8 @@
 
 -(void) dragginAtPoint:(CGPoint) pointIn;
 
+-(void) draggingAtIndexPath:(NSIndexPath *)indexpath;
+
 
 
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9F50DA08-F76C-40B6-8D99-ADD17F5523E5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DragCellPrototype</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C12CE8F-54FE-4F66-A0C8-AEA4E100A96E</key>
+		<string>https://github.com/ashvaryasingh19/DragCellPrototype.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DragCellPrototype.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C12CE8F-54FE-4F66-A0C8-AEA4E100A96E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ashvaryasingh19/DragCellPrototype.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C12CE8F-54FE-4F66-A0C8-AEA4E100A96E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C12CE8F-54FE-4F66-A0C8-AEA4E100A96E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DragCellPrototype</string>
+		</dict>
+	</array>
+</dict>
+</plist>

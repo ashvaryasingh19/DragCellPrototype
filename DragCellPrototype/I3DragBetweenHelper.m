@@ -636,10 +636,23 @@
     /* Translate */
     
     CGPoint translation = [gestureRecognizer translationInView:[self.draggingView superview]];
+    CGPoint point = [gestureRecognizer locationInView:self.superview];
+    CGPoint positionInDst = [self.dstView convertPoint:point fromView:self.superview];
+    
+   if(self.isDraggingFromSrcCollection
+            && [self.dstView pointInside:positionInDst withEvent:nil]){
+        
+        NSIndexPath *path=[self determineIndexForContainer:self.dstView atPoint:positionInDst forCell:nil];
+       
+       if ([self.delegate respondsToSelector:@selector(draggingAtIndexPath:)]) {
+           [self.delegate draggingAtIndexPath:path];
+       }
+         NSLog(@"index %d",path.row);
+    }
+    
     [self.draggingView setCenter:CGPointMake([self.draggingView center].x + translation.x,
                                              [self.draggingView center].y + translation.y)];
     [gestureRecognizer setTranslation:CGPointZero inView:[self.draggingView superview]];
-
 }
 
 
@@ -985,6 +998,7 @@
     }
 
 }
+
 
 
 

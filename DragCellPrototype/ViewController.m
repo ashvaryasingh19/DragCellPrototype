@@ -14,6 +14,7 @@ static NSString* DequeueReusableCell = @"DequeueReusableCell";
 @interface ViewController ()
 @property (nonatomic, strong) I3DragBetweenHelper* helper;
 @property (nonatomic, strong) NSMutableArray* leftData;
+@property (nonatomic, strong) NSIndexPath *selectedGroup;
 
 @property (nonatomic, strong) NSMutableArray* collectionData;
 @end
@@ -137,5 +138,20 @@ static NSString* DequeueReusableCell = @"DequeueReusableCell";
     else
         return YES;
 
+}
+
+-(void)draggingAtIndexPath:(NSIndexPath *)indexpath
+{
+    if (![self.selectedGroup isEqual:indexpath])
+    {
+        for (CustomGroupCell *cell in self.groupSection.subviews) {
+            [cell.layer setBorderColor:[UIColor clearColor].CGColor];
+            [cell.layer setBorderWidth:0.0f];
+        }
+        CustomGroupCell *cgc = (CustomGroupCell *)[self.groupSection cellForItemAtIndexPath:indexpath];
+        [cgc.layer setBorderColor:[UIColor greenColor].CGColor];
+        [cgc.layer setBorderWidth:3.0f];
+        self.selectedGroup=indexpath;
+    }
 }
 @end
